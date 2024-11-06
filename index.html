@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stadtwerdung</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: left;
+            margin: 20px;
+            line-height: 1.5;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        audio {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .instruction {
+            text-align: center;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        .small-button {
+            padding: 8px 16px;
+            font-size: 16px;
+            background-color: #555555;
+        }
+        .logo {
+            display: block;
+            margin: 40px auto 0 auto;
+            width: 200px; /* Задайте нужный размер логотипа */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Stadtwerdung</h1>
+        
+        <!-- Аудиоплеер для файла stadtwerdung DE -->
+        <audio controls controlslist="nodownload">
+            <source src="stadtwerdung%20DE.mp3" type="audio/mpeg">
+            Ihr Browser unterstützt die Audio-Wiedergabe nicht.
+        </audio>
+        
+        <!-- Основной текст -->
+        <p>
+            Aus der nach ihrem Gründer Wulfheri benannten Siedlung – altdeutsch: »buttle« – ging im 10. Jahrhundert im Schutz der Oker eine Wasserburg mit Namen Wlferesbutle hervor. Nachdem sich die 1118 erstmals schriftlich erwähnten Herren von Wolfenbüttel gegen die Welfen nicht behaupten konnten, fiel die Wasserburg 1255 in den Besitz der welfischen Herzöge von Braunschweig und Lüneburg. Ab 1432 bauten diese die Dammfeste Wolfenbüttel zu ihrer ständigen Residenz aus. Zum Ende des 16. Jahrhunderts erfolgte aufgrund herzoglichen Erlasses die Errichtung der »Heinrichsstadt« vor den Toren Wolfenbüttels. Es schlossen sich die »Neue Heinrichsstadt«, das »Gotteslager«, später »Juliusstadt« und die »Auguststadt« an.
+            Obwohl der Heinrichsstadt 1570 durch kaiserliche Privilegien das Markt- und Wappenrecht verliehen wurde, kann man von der Gesamtstadt Wolfenbüttel erst ab 1747 sprechen. In diesem Jahr übertrug man den vorher nur an der Dammfeste haftenden Namen auf alle Stadtteile und vereinheitlichte das Recht in allen Siedlungsbezirken. Kurz nach dieser Stadtwerdung verlegte Herzog Karl I. den Hof 1753/54 zurück nach Braunschweig. Für Wolfenbüttel begann nun der lange Weg von einer herzoglichen zur bürgerlichen Stadt.
+        </p>
+        
+        <!-- Текст-инструкция -->
+        <p class="instruction">Weiter mit der Taste 3</p>
+        
+        <!-- Контейнер для кнопок 2 и 3 -->
+        <div class="button-container">
+            <!-- Кнопка 2, ведущая на предыдущую страницу -->
+            <a href="https://museumwolfenbuettel.github.io/Buerger-Museum/" class="button small-button">2</a>
+            
+            <!-- Кнопка 3, ведущая на следующую страницу -->
+            <a href="page3.html" class="button">3</a>
+        </div>
+
+        <!-- Логотип под кнопками -->
+        <img src="Museum_Wolfenbuettel.jpg" alt="Museum Logo" class="logo">
+    </div>
+</body>
+</html>
